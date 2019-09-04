@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i|Nunito:300,400,600,700,800&display=swap');
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.woff);
+    src: url(../fonts/Roboto-Regular.woff2);
+    src: url(../fonts/Roboto-Regular.eot);
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+
+
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	color: #808080;
+}
+
+header{
+	background-color: transparent;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 1000; /*fondo del header detras del menu posicion de la capa en frente o el primero que se debe mostrar*/
+}
+
+#Home{
+	
+	background-size: cover;
+     background-position: center; 
+	padding: 10% 0;
+color: #FFFFFF;	
+position: relative;
+height: 100vh;/*altura de la pantalla*/
+
+}
+
+
+#Home h1{
+	
+	font-size: 60px;
+	font-weight: 300;
+	
+}
+
+#Home h1 span{
+	display: block;
+	font-weight: 400;
+	
+}
+
+#Home p{
+	font-size: 20px;
+	
+}
+#Home .subitulo{
+	color: #FFFFFF;
+}
+
+.bg-Home{
+	background-image: url("../img/hero-home.jpg");
+	height: 100vh;
+}
+
+.bg-contact{
+	background-image: url("../img/hero-contact.jpeg");
+	height: 60vh !important;
+}
+
+
+
+
+
+
+.btn-light{
+	border-radius: 0;
+	padding: 15px 40px;
+	
+}
+.btn{
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+#container {
+	background-color: #f2f2f2;
+	background-size: cover;
+	background-position: top center; 
+	padding: 3% 0;
+	
+}
+
+.titulo {
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	color: #222222;
+	padding: 40 0;
+}
+
+ .subtitulo{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	color: #808080;
+	margin-bottom: 40px;
+	 font-family: 'Crimson Text', serif;
+}
+
+#container h2{
+	font-size: 14px;
+	font-style: normal;
+	text-align: center;
+	 color: #3F3F3F;
+	padding: 60 0;
+}
+
+#container p{
+	font-size: 14px;
+	text-align: center;
+}
+
+#Works {
+background-color: #FFFFFF;
+padding: 8px 40px;
+text-align: center;
+}
+
+
+.titulo {
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	color: #222222;
+	padding: 40 0;
+}
+
+.subtitulo{
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	color: #808080;
+	margin-bottom: 40px;
+}
+
+.separador-fila{
+	margin-top: 10px;
+}
+
+
+#What {
+background-color: #FFFFFF;
+padding: 18px 40px;
+text-align: center;
+
+}
+
+#What h5{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.section{
+	padding: 80px 0;
+}
+
+#Testimonios{
+
+	text-align: center;
+	background-color: #F2F2F2;
+	
+}
+
+.testimonio-info {
+	background-color: #FFFFFF;
+	padding: 25px 20px;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 8px;
+	border: 1px solid #ddd;
+	border-bottom-left-radius: 0px;
+}
+
+
+.testimonio-info p{
+	margin-top: 40px;
+	margin-bottom: 25px;
+	font-size: 16px;
+	
+}
+
+.testimonio-info h5{
+	color: #000000;
+	font-weight: 500;
+	font-size: 12px;
+	font-style: italic
+	}
+.testimonio-info h4{
+	color: #222;
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	
+	
+}
+
+.testimonio-info h5{
+	color: #757575;
+	font-size: 14px;
+	font-style: italic;
+}
+
+
+
+
+.bg-blue{
+	background-color: #258edf;
+	color: #FFFFFF;
+}
+
+
+
+.bg-blue h5{
+	
+	color: #FFFFFF;
+}
+
+#Testimonios article:nth-child(2) .testimonio-info{
+	background-color: #0015FF;
+	color: #FFFFFF;
+}
+
+
+#Testimonios article:nth-child(3) .testimonio-info{
+	background-color: #000;
+	color: #FFF;
+}
+
+
+#touch{background-image: url("file:///C|/Users/BENILDA/Documents/Respaldos Diseño Web/oshine/oshine/img/bg-action.jpeg");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+#touch::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.70);
+	top: 0;
+	z-index: 0;
+}
+
+
+
+.overlay{
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.80);
+	top: 0;
+	z-index: 0;
+	
+}
+
+
+#slides .tag{
+font-size: 16px;
+	font-style: italic;
+	
+}
+
+#slides .sub{
+font-size: 20px;
+	
+	
+}
+
+
+#slides h1{
+	
+	font-size: 60px;
+	font-weight: 300;
+	margin-bottom: 45px;
+	
+}
+
+#slides .carousel-item img{
+	height: 640px;
+}
+
+
+
+
+#slides .carousel-caption{
+	top: 20%;
+	width: 50%;
+	margin: 0 auto;
+	
+	
+}
+
+.slide-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.55);
+	
+}
+
+
+.work{
+	position:relative;
+	/*texto sobre imagen y color*/
+	overflow: hidden;/*ponerselo para que la imagen de zoom no se salga*/
+}
+
+
+
+.work-fondo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #28D1A2;
+	/*fondo verde sobre imagen*/
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	/*transition sobre la imagen*/
+	z-index: 10;
+		
+}
+
+.work-texto{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF !important;
+	/*ojo important para que tome el ultimo color*/
+	text-align: center;
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	z-index: 20;
+	
+}
+
+.work-texto h5{
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 14px;
+	
+}
+
+.work-texto h6{
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 14px;	
+}
+
+
+
+.work:hover .work-fondo,
+.work:hover .work-texto{
+	opacity: 1;
+	transition: all 0.4s ease-in;
+	/*ojo opacidad no va en porcentaje*/
+}
+
+
+
+.work-frame{
+	position: absolute;
+	top: 0;
+	padding: 5px;
+	width: 100%;
+	height: 100%;
+	/*ajustar cuadro fondo al tamano de la imagen*/
+}
+
+.work-bottom{ /*Ojo cmabiar el color del boton*/
+	position: absolute;
+	width: 100%;
+	background-color: #000000;
+	color: #fff;
+	bottom: 0;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.work:hover .work-bottom{ /*cambio a otro color*/
+	background-color: #28D1A2;
+}
+
+
+.overlay{ /*transparencia sobre la imagen principal background*/
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.50);
+	padding: 10% 0; /*centra texto a la imagen*/
+	
+}
+
+.work:hover img{ /*zoom en la imagenes*/
+	transform: scale(1.5);
+	transition: all 1s ease-in-out;
+	
+}
+
+
+
+.work img{ /*para que regrese al tamaño normal*/
+	transition: all 1s ease-in-out;
+	filter: blur(5px);
+	filter: grayscale(1);
+	filter: sepia(1);
+}
+
+h4{
+	text-transform: uppercase;
+	color: #404040;
+	font-size: 14px;
+	font-weight: 500px;
+	letter-spacing: 1px;
+	
+}
+
+
+
+
+
+.navbar-nav .fab{/*CIRCULO DEBAJO DE REDES SOCIALES*/
+	background-color: #28d1A2;
+	border-radius: 100%;
+	width: 30PX;
+	height: 30px;
+	line-height: 30px;
+	text-align: center; /*siempre*/
+	
+}
+
+
+
+
+
+
+footer{
+	background: #f2f2f2;
+	color: #757575;
+	text-align: center;
+	padding: 40px 0;
+}
+
+
+
+
+
